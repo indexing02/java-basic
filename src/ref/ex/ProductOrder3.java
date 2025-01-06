@@ -28,6 +28,7 @@ public class ProductOrder3 {
             sc.nextLine();//입력 버퍼를 비우기 위한 코드
 
             productOrder[i]=creatOrder(productName,price,quantity);
+
         }
 
        printOrder(productOrder);
